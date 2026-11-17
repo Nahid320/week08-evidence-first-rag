@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+# Persistent indexes and generated reports
+chroma_data/
+outputs/
+# Local editors and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Session-specific PDF workspaces, secret files and model artifacts
+.streamlit/secrets.toml
+uploads/
+*.sqlite3
+
+# Local caches, tokens and additional generated indexes
+*.log
+.huggingface/
+.cache/
+*.db
+*.sqlite

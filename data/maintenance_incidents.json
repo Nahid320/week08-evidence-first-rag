@@ -1,0 +1,32 @@
+[
+  {
+    "id": "LOG-001",
+    "section": "Inverter thermal faults",
+    "text": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+  },
+  {
+    "id": "LOG-002",
+    "section": "Protection relay verification",
+    "text": "Incident REL-204: Protective relay REL-204 could not complete acceptance testing because approved protection settings were missing from the commissioning package. The engineering team requested a signed settings schedule and postponed sign-off."
+  },
+  {
+    "id": "LOG-003",
+    "section": "Monitoring timestamp synchronization",
+    "text": "Incident GW-12B: Monitoring gateway GW-12B showed inconsistent timestamps relative to the facility meter. Investigators checked network time synchronization, the site clock source, and gateway configuration. The issue must be closed before reliable performance reporting."
+  },
+  {
+    "id": "LOG-004",
+    "section": "Cable routing and identification",
+    "text": "Incident CBL-6A: Cable CBL-6A appeared under two different labels in subcontractor documentation. The quality team published a cross-reference mapping and required an as-built drawing update before handover."
+  },
+  {
+    "id": "LOG-005",
+    "section": "Roof access and lifting",
+    "text": "Incident ROOF-8Q: Lifting permit ROOF-8Q was delayed because roof point-load approval had not been signed by the structural consultant. Materials were staged at ground level until approved lifting instructions became available."
+  },
+  {
+    "id": "LOG-006",
+    "section": "Metering baseline data",
+    "text": "Incident MTR-3C: Meter MTR-3C had an incomplete interval during a communications outage. Analysts did not invent missing readings; they recorded the missing dates and data limitations in the measurement baseline."
+  }
+]

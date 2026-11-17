@@ -1,0 +1,183 @@
+[
+  {
+    "id": "qa01",
+    "question": "What happened to inverter INV-7X4?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "INV-7X4 reported repeated thermal alarms during sustained load.",
+        "source_id": "S1",
+        "quote": "reported repeated thermal alarms during sustained load",
+        "human_verdict": "supported"
+      }
+    ],
+    "note": "Correct, relevant, valid citation"
+  },
+  {
+    "id": "qa02",
+    "question": "What actions did technicians take for INV-7X4?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "The technicians did not reduce inverter loading.",
+        "source_id": "S1",
+        "quote": "Technicians reduced loading",
+        "human_verdict": "contradicted"
+      }
+    ],
+    "note": "Quote is valid but directly contradicts the claim"
+  },
+  {
+    "id": "qa03",
+    "question": "Was the root cause of INV-7X4 finally confirmed?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "The root cause was finally confirmed after the retest.",
+        "source_id": "S1",
+        "quote": "Root cause remained under review pending repeat measurements",
+        "human_verdict": "contradicted"
+      }
+    ],
+    "note": "Correct quotation cannot rescue wrong claim"
+  },
+  {
+    "id": "qa04",
+    "question": "What happened to inverter INV-7X4?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident REL-204: Protective relay REL-204 could not complete acceptance testing because approved protection settings were missing from the commissioning package. The engineering team requested a signed settings schedule and postponed sign-off."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "Relay REL-204 had missing approved protection settings.",
+        "source_id": "S1",
+        "quote": "approved protection settings were missing",
+        "human_verdict": "supported"
+      }
+    ],
+    "note": "Faithful to source, but irrelevant to this question"
+  },
+  {
+    "id": "qa05",
+    "question": "Why did REL-204 fail acceptance testing?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident REL-204: Protective relay REL-204 could not complete acceptance testing because approved protection settings were missing from the commissioning package. The engineering team requested a signed settings schedule and postponed sign-off."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "REL-204 failed due to overheating.",
+        "source_id": "S1",
+        "quote": "relay temperature exceeded 120 degrees Celsius",
+        "human_verdict": "insufficient"
+      }
+    ],
+    "note": "Fabricated quote inside real source ID"
+  },
+  {
+    "id": "qa06",
+    "question": "What was wrong with gateway GW-12B?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident GW-12B: Monitoring gateway GW-12B showed inconsistent timestamps relative to the facility meter. Investigators checked network time synchronization, the site clock source, and gateway configuration. The issue must be closed before reliable performance reporting."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "GW-12B had inconsistent timestamps relative to the facility meter.",
+        "source_id": "S99",
+        "quote": "showed inconsistent timestamps relative to the facility meter",
+        "human_verdict": "supported"
+      }
+    ],
+    "note": "Genuine statement but invalid source ID; judge sees evidence in S1"
+  },
+  {
+    "id": "qa07",
+    "question": "What was the chief executive paid in 2025?",
+    "answerable": false,
+    "abstained": true,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [],
+    "note": "Correct abstention: no CEO salary in sources"
+  },
+  {
+    "id": "qa08",
+    "question": "What was the chief executive paid in 2025?",
+    "answerable": false,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "The chief executive earned 400,000 euros in 2025.",
+        "source_id": "S1",
+        "quote": "reported repeated thermal alarms during sustained load",
+        "human_verdict": "insufficient"
+      }
+    ],
+    "note": "Invalid answerability and unrelated citation"
+  },
+  {
+    "id": "qa09",
+    "question": "What happened to inverter INV-7X4?",
+    "answerable": true,
+    "abstained": true,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [],
+    "note": "Incorrect abstention despite available evidence"
+  },
+  {
+    "id": "qa10",
+    "question": "What was the status of incident INV-7X4?",
+    "answerable": true,
+    "abstained": false,
+    "sources": {
+      "S1": "Incident INV-7X4: At commissioning, inverter INV-7X4 reported repeated thermal alarms during sustained load. Airflow around its enclosure was restricted by an adjacent cable tray. Technicians reduced loading, inspected ventilation clearances, and scheduled a controlled retest after the obstruction was addressed. Root cause remained under review pending repeat measurements."
+    },
+    "claims": [
+      {
+        "id": "C1",
+        "statement": "Technicians scheduled a controlled retest.",
+        "source_id": "S1",
+        "quote": "scheduled a controlled retest after the obstruction was addressed",
+        "human_verdict": "supported"
+      },
+      {
+        "id": "C2",
+        "statement": "The retest was complete and the root cause closed.",
+        "source_id": "S1",
+        "quote": "Root cause remained under review pending repeat measurements",
+        "human_verdict": "contradicted"
+      }
+    ],
+    "note": "One supported and one contradicted claim"
+  }
+]

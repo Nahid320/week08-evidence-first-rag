@@ -1,0 +1,111 @@
+[
+  {
+    "id": "q01",
+    "question": "What happened to inverter INV-7X4?",
+    "answerable": true,
+    "relevant_ids": [
+      "LOG-001"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "Why did relay REL-204 fail acceptance testing?",
+    "answerable": true,
+    "relevant_ids": [
+      "LOG-002"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "What caused the monitoring timestamp issue with GW-12B?",
+    "answerable": true,
+    "relevant_ids": [
+      "LOG-003"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "What was wrong with cable identification for CBL-6A?",
+    "answerable": true,
+    "relevant_ids": [
+      "LOG-004"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "Why was lifting permit ROOF-8Q delayed?",
+    "answerable": true,
+    "relevant_ids": [
+      "LOG-005"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "What did analysts do about missing meter MTR-3C readings?",
+    "answerable": true,
+    "relevant_ids": [
+      "LOG-006"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "Why were the inverter ventilation clearances questioned during summer?",
+    "answerable": true,
+    "relevant_ids": [
+      "PDF-06ca981f363d77620afd"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "Why could the first commissioning tests not be signed off?",
+    "answerable": true,
+    "relevant_ids": [
+      "PDF-bad5d75676d1f47f4c76"
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "Why was the initial procurement delivery schedule unrealistic?",
+    "answerable": true,
+    "relevant_ids": [
+      "PDF-005ba17c0ae428162522"
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "What was found during the quality review of cable labels?",
+    "answerable": true,
+    "relevant_ids": [
+      "PDF-f3da4df558315e28401a"
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "What handover documentation and practices were recommended?",
+    "answerable": true,
+    "relevant_ids": [
+      "PDF-63341d76df8f4d0c2749",
+      "PDF-0b7046fb601c797574c3"
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "How was installation coordinated with active factory operations?",
+    "answerable": true,
+    "relevant_ids": [
+      "PDF-c291fbfe3449ee5ce927"
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "What was the CEO salary in 2025?",
+    "answerable": false,
+    "relevant_ids": []
+  },
+  {
+    "id": "q14",
+    "question": "What is the company stock ticker and current share price?",
+    "answerable": false,
+    "relevant_ids": []
+  }
+]
